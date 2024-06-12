@@ -1,0 +1,1839 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabPageMain.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.Name" xml:space="preserve">
+    <value>LogOutputTextBox</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 84</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 220</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Информация</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>tabPageMain</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="StatusCommandsLable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9.75pt, style=Bold</value>
+  </data>
+  <data name="StatusCommandsLable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 59</value>
+  </data>
+  <data name="StatusCommandsLable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>429, 22</value>
+  </data>
+  <data name="StatusCommandsLable.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="StatusCommandsLable.Text" xml:space="preserve">
+    <value>Оптимизация Windows 10</value>
+  </data>
+  <data name="StatusCommandsLable.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;StatusCommandsLable.Name" xml:space="preserve">
+    <value>StatusCommandsLable</value>
+  </data>
+  <data name="&gt;&gt;StatusCommandsLable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StatusCommandsLable.Parent" xml:space="preserve">
+    <value>tabPageMain</value>
+  </data>
+  <data name="&gt;&gt;StatusCommandsLable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProgressBarStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 314</value>
+  </data>
+  <data name="ProgressBarStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 23</value>
+  </data>
+  <data name="ProgressBarStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus.Name" xml:space="preserve">
+    <value>ProgressBarStatus</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus.Parent" xml:space="preserve">
+    <value>tabPageMain</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnDestroyWindowsSpying.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDestroyWindowsSpying.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 15.75pt</value>
+  </data>
+  <data name="btnDestroyWindowsSpying.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 6</value>
+  </data>
+  <data name="btnDestroyWindowsSpying.Size" type="System.Drawing.Size, System.Drawing">
+    <value>444, 50</value>
+  </data>
+  <data name="btnDestroyWindowsSpying.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDestroyWindowsSpying.Text" xml:space="preserve">
+    <value>Оптимизация Windows 10</value>
+  </data>
+  <data name="&gt;&gt;btnDestroyWindowsSpying.Name" xml:space="preserve">
+    <value>btnDestroyWindowsSpying</value>
+  </data>
+  <data name="&gt;&gt;btnDestroyWindowsSpying.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDestroyWindowsSpying.Parent" xml:space="preserve">
+    <value>tabPageMain</value>
+  </data>
+  <data name="&gt;&gt;btnDestroyWindowsSpying.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPageMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageMain.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 341</value>
+  </data>
+  <data name="tabPageMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPageMain.Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="&gt;&gt;tabPageMain.Name" xml:space="preserve">
+    <value>tabPageMain</value>
+  </data>
+  <data name="&gt;&gt;tabPageMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageMain.Parent" xml:space="preserve">
+    <value>FormTabsControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LogOutputTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Consolas, 8.25pt</value>
+  </data>
+  <data name="LogOutputTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="LogOutputTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>437, 194</value>
+  </data>
+  <data name="LogOutputTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LogOutputTextBox.Text" xml:space="preserve">
+    <value>Перед использованием программы, пожалуйста, ознакомьтесь с её функционалом. При нажатии на кнопку "Оптимизация Windows" будет отключена телеметрия. Это действие улучшит производительность компьютера, но может привести к некоторым побочным эффектам, таким как неработающий Microsoft Store.</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.Name" xml:space="preserve">
+    <value>LogOutputTextBox</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;LogOutputTextBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPageSettings.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.Name" xml:space="preserve">
+    <value>ProgressBarStatus1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.Parent" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.Name" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.Parent" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPageSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPageSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 341</value>
+  </data>
+  <data name="tabPageSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPageSettings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.Name" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.Parent" xml:space="preserve">
+    <value>FormTabsControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="delete_hyperv_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="delete_hyperv_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="delete_hyperv_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 52</value>
+  </data>
+  <data name="delete_hyperv_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="delete_hyperv_button.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="delete_hyperv_button.Text" xml:space="preserve">
+    <value>Удалить HyperV</value>
+  </data>
+  <data name="&gt;&gt;delete_hyperv_button.Name" xml:space="preserve">
+    <value>delete_hyperv_button</value>
+  </data>
+  <data name="&gt;&gt;delete_hyperv_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete_hyperv_button.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;delete_hyperv_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="enable_hyperv_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="enable_hyperv_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="enable_hyperv_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 20</value>
+  </data>
+  <data name="enable_hyperv_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="enable_hyperv_button.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="enable_hyperv_button.Text" xml:space="preserve">
+    <value>Включить HyperV</value>
+  </data>
+  <data name="&gt;&gt;enable_hyperv_button.Name" xml:space="preserve">
+    <value>enable_hyperv_button</value>
+  </data>
+  <data name="&gt;&gt;enable_hyperv_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enable_hyperv_button.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;enable_hyperv_button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="disable_hyperv_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="disable_hyperv_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="disable_hyperv_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="disable_hyperv_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="disable_hyperv_button.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="disable_hyperv_button.Text" xml:space="preserve">
+    <value>Отключить HyperV</value>
+  </data>
+  <data name="&gt;&gt;disable_hyperv_button.Name" xml:space="preserve">
+    <value>disable_hyperv_button</value>
+  </data>
+  <data name="&gt;&gt;disable_hyperv_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disable_hyperv_button.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;disable_hyperv_button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>201, 3</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 85</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>НyperV</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 318</value>
+  </data>
+  <data name="progressBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>459, 23</value>
+  </data>
+  <data name="progressBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Name" xml:space="preserve">
+    <value>progressBar1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;progressBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 341</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Службы и процессы</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>FormTabsControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FormTabsControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
+  </data>
+  <data name="FormTabsControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 367</value>
+  </data>
+  <data name="FormTabsControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FormTabsControl.Name" xml:space="preserve">
+    <value>FormTabsControl</value>
+  </data>
+  <data name="&gt;&gt;FormTabsControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FormTabsControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FormTabsControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ProgressBarStatus1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 317</value>
+  </data>
+  <data name="ProgressBarStatus1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>459, 23</value>
+  </data>
+  <data name="ProgressBarStatus1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.Name" xml:space="preserve">
+    <value>ProgressBarStatus1</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.Parent" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;ProgressBarStatus1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.Name" xml:space="preserve">
+    <value>disable_fonapps_button</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;startup_button.Name" xml:space="preserve">
+    <value>startup_button</value>
+  </data>
+  <data name="&gt;&gt;startup_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startup_button.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;startup_button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.Name" xml:space="preserve">
+    <value>groupBoxWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Win10SettingsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-4, 3</value>
+  </data>
+  <data name="Win10SettingsPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Win10SettingsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 320</value>
+  </data>
+  <data name="Win10SettingsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.Name" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.Parent" xml:space="preserve">
+    <value>tabPageSettings</value>
+  </data>
+  <data name="&gt;&gt;Win10SettingsPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="disable_fonapps_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="disable_fonapps_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="disable_fonapps_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 99</value>
+  </data>
+  <data name="disable_fonapps_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="disable_fonapps_button.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="disable_fonapps_button.Text" xml:space="preserve">
+    <value>Отключить фоновые приложения</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.Name" xml:space="preserve">
+    <value>disable_fonapps_button</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;disable_fonapps_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.Name" xml:space="preserve">
+    <value>delete_edge_button</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.Name" xml:space="preserve">
+    <value>delete_hiber_button</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.Name" xml:space="preserve">
+    <value>btnDeleteOneDrive</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.Name" xml:space="preserve">
+    <value>create_compactos_button</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.Name" xml:space="preserve">
+    <value>delete_trash_button</value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 148</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 161</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Освобождение памяти</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="delete_edge_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="delete_edge_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="delete_edge_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 100</value>
+  </data>
+  <data name="delete_edge_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="delete_edge_button.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="delete_edge_button.Text" xml:space="preserve">
+    <value>Удалить Edge</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.Name" xml:space="preserve">
+    <value>delete_edge_button</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;delete_edge_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="delete_hiber_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="delete_hiber_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="delete_hiber_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 71</value>
+  </data>
+  <data name="delete_hiber_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="delete_hiber_button.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="delete_hiber_button.Text" xml:space="preserve">
+    <value>Удаление файла гибернации</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.Name" xml:space="preserve">
+    <value>delete_hiber_button</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;delete_hiber_button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnDeleteOneDrive.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDeleteOneDrive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDeleteOneDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 129</value>
+  </data>
+  <data name="btnDeleteOneDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>184, 23</value>
+  </data>
+  <data name="btnDeleteOneDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="btnDeleteOneDrive.Text" xml:space="preserve">
+    <value>Удалить One Drive</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.Name" xml:space="preserve">
+    <value>btnDeleteOneDrive</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;btnDeleteOneDrive.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="create_compactos_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="create_compactos_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="create_compactos_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="create_compactos_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="create_compactos_button.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="create_compactos_button.Text" xml:space="preserve">
+    <value>Создать Compact OS</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.Name" xml:space="preserve">
+    <value>create_compactos_button</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;create_compactos_button.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="delete_trash_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="delete_trash_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="delete_trash_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="delete_trash_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="delete_trash_button.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="delete_trash_button.Text" xml:space="preserve">
+    <value>Удаление мусора </value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.Name" xml:space="preserve">
+    <value>delete_trash_button</value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;delete_trash_button.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="startup_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="startup_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="startup_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 55</value>
+  </data>
+  <data name="startup_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="startup_button.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="startup_button.Text" xml:space="preserve">
+    <value>Окно автозагрузки</value>
+  </data>
+  <data name="&gt;&gt;startup_button.Name" xml:space="preserve">
+    <value>startup_button</value>
+  </data>
+  <data name="&gt;&gt;startup_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startup_button.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;startup_button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.Name" xml:space="preserve">
+    <value>btnEnableWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.Parent" xml:space="preserve">
+    <value>groupBoxWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.Name" xml:space="preserve">
+    <value>btnDisableWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.Parent" xml:space="preserve">
+    <value>groupBoxWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxWindowsUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 3</value>
+  </data>
+  <data name="groupBoxWindowsUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 46</value>
+  </data>
+  <data name="groupBoxWindowsUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="groupBoxWindowsUpdate.Text" xml:space="preserve">
+    <value>Windows Update</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.Name" xml:space="preserve">
+    <value>groupBoxWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBoxWindowsUpdate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnEnableWindowsUpdate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnEnableWindowsUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEnableWindowsUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="btnEnableWindowsUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="btnEnableWindowsUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnEnableWindowsUpdate.Text" xml:space="preserve">
+    <value>Включить</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.Name" xml:space="preserve">
+    <value>btnEnableWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.Parent" xml:space="preserve">
+    <value>groupBoxWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnEnableWindowsUpdate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnDisableWindowsUpdate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDisableWindowsUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDisableWindowsUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="btnDisableWindowsUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="btnDisableWindowsUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnDisableWindowsUpdate.Text" xml:space="preserve">
+    <value>Отключить</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.Name" xml:space="preserve">
+    <value>btnDisableWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.Parent" xml:space="preserve">
+    <value>groupBoxWindowsUpdate</value>
+  </data>
+  <data name="&gt;&gt;btnDisableWindowsUpdate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.Name" xml:space="preserve">
+    <value>checkBoxCreateSystemRestorePoint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.Name" xml:space="preserve">
+    <value>checkBoxKeyLoggerAndTelemetry</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.Name" xml:space="preserve">
+    <value>checkBoxSPYTasks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.Name" xml:space="preserve">
+    <value>checkBoxDisableWindowsDefender</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.Name" xml:space="preserve">
+    <value>checkBoxDisablePrivateSettings</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.Name" xml:space="preserve">
+    <value>checkBoxAddToHosts</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 3</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 126</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Windows Шпион</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 17</value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="checkBoxCreateSystemRestorePoint.Text" xml:space="preserve">
+    <value>Создать точку восстановления системы</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.Name" xml:space="preserve">
+    <value>checkBoxCreateSystemRestorePoint</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCreateSystemRestorePoint.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 34</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 17</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry.Text" xml:space="preserve">
+    <value>Удалить keylogger и telemetry</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.Name" xml:space="preserve">
+    <value>checkBoxKeyLoggerAndTelemetry</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxKeyLoggerAndTelemetry.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxSPYTasks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxSPYTasks.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxSPYTasks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 102</value>
+  </data>
+  <data name="checkBoxSPYTasks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxSPYTasks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 17</value>
+  </data>
+  <data name="checkBoxSPYTasks.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="checkBoxSPYTasks.Text" xml:space="preserve">
+    <value>Отключение шпионских задач</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.Name" xml:space="preserve">
+    <value>checkBoxSPYTasks</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxSPYTasks.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 85</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 17</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender.Text" xml:space="preserve">
+    <value>Отключить Windows Defender</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.Name" xml:space="preserve">
+    <value>checkBoxDisableWindowsDefender</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisableWindowsDefender.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 68</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 17</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings.Text" xml:space="preserve">
+    <value>Отключить приватные настройки</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.Name" xml:space="preserve">
+    <value>checkBoxDisablePrivateSettings</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDisablePrivateSettings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxAddToHosts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAddToHosts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxAddToHosts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 51</value>
+  </data>
+  <data name="checkBoxAddToHosts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxAddToHosts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 17</value>
+  </data>
+  <data name="checkBoxAddToHosts.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="checkBoxAddToHosts.Text" xml:space="preserve">
+    <value>Замена доменов Windows на локальные </value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.Name" xml:space="preserve">
+    <value>checkBoxAddToHosts</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAddToHosts.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.Name" xml:space="preserve">
+    <value>checkBoxDeleteWindows10Apps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.Name" xml:space="preserve">
+    <value>checkBoxDeleteApp3d</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.Name" xml:space="preserve">
+    <value>checkBoxDeleteMailCalendarMaps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppBing</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppXBOX</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppZune</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppPeopleOneNote</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppPhone</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppSolit</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 131</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 178</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Windows 10 Metro </value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>Win10SettingsPanel</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 17</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps.Text" xml:space="preserve">
+    <value>Удалить Windows 10 Metro </value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.Name" xml:space="preserve">
+    <value>checkBoxDeleteWindows10Apps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteWindows10Apps.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxDeleteApp3d.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteApp3d.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteApp3d.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 34</value>
+  </data>
+  <data name="checkBoxDeleteApp3d.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteApp3d.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="checkBoxDeleteApp3d.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBoxDeleteApp3d.Text" xml:space="preserve">
+    <value>Удалить Builder 3D</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.Name" xml:space="preserve">
+    <value>checkBoxDeleteApp3d</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteApp3d.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxDeleteMailCalendarMaps.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteMailCalendarMaps.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteMailCalendarMaps.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 52</value>
+  </data>
+  <data name="checkBoxDeleteMailCalendarMaps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteMailCalendarMaps.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 17</value>
+  </data>
+  <data name="checkBoxDeleteMailCalendarMaps.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBoxDeleteMailCalendarMaps.Text" xml:space="preserve">
+    <value>Удалить Mail, Calendar и Maps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.Name" xml:space="preserve">
+    <value>checkBoxDeleteMailCalendarMaps</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteMailCalendarMaps.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxDeleteAppBing.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteAppBing.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteAppBing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 69</value>
+  </data>
+  <data name="checkBoxDeleteAppBing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteAppBing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 17</value>
+  </data>
+  <data name="checkBoxDeleteAppBing.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="checkBoxDeleteAppBing.Text" xml:space="preserve">
+    <value>Удалить Money, Sports, News и Weather</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppBing</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppBing.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="checkBoxDeleteAppXBOX.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteAppXBOX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteAppXBOX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 154</value>
+  </data>
+  <data name="checkBoxDeleteAppXBOX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteAppXBOX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="checkBoxDeleteAppXBOX.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="checkBoxDeleteAppXBOX.Text" xml:space="preserve">
+    <value>Удалить XBoX</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppXBOX</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppXBOX.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxDeleteAppZune.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteAppZune.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteAppZune.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 86</value>
+  </data>
+  <data name="checkBoxDeleteAppZune.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteAppZune.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 17</value>
+  </data>
+  <data name="checkBoxDeleteAppZune.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="checkBoxDeleteAppZune.Text" xml:space="preserve">
+    <value>Удалить Groove Music и Film TV </value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppZune</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppZune.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkBoxDeleteAppPeopleOneNote.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteAppPeopleOneNote.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteAppPeopleOneNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 103</value>
+  </data>
+  <data name="checkBoxDeleteAppPeopleOneNote.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteAppPeopleOneNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="checkBoxDeleteAppPeopleOneNote.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="checkBoxDeleteAppPeopleOneNote.Text" xml:space="preserve">
+    <value>Удалить People и OneNote</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppPeopleOneNote</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPeopleOneNote.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkBoxDeleteAppPhone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteAppPhone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteAppPhone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 120</value>
+  </data>
+  <data name="checkBoxDeleteAppPhone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteAppPhone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 17</value>
+  </data>
+  <data name="checkBoxDeleteAppPhone.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="checkBoxDeleteAppPhone.Text" xml:space="preserve">
+    <value>Удалить Phone Companion</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppPhone</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppPhone.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="checkBoxDeleteAppSolit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDeleteAppSolit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDeleteAppSolit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 137</value>
+  </data>
+  <data name="checkBoxDeleteAppSolit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="checkBoxDeleteAppSolit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 17</value>
+  </data>
+  <data name="checkBoxDeleteAppSolit.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="checkBoxDeleteAppSolit.Text" xml:space="preserve">
+    <value>Удалить Solitaire Collection</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.Name" xml:space="preserve">
+    <value>checkBoxDeleteAppSolit</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDeleteAppSolit.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="checkedListBoxUpdatesW78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="checkedListBoxUpdatesW78.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 96</value>
+  </data>
+  <data name="checkedListBoxUpdatesW78.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkedListBoxUpdatesW78.Name" xml:space="preserve">
+    <value>checkedListBoxUpdatesW78</value>
+  </data>
+  <data name="&gt;&gt;checkedListBoxUpdatesW78.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 27</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Отключить службы HyperV</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>457, 364</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OptimaGl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

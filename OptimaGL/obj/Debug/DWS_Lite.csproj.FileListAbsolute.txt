@@ -1,0 +1,9 @@
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\bin\Debug\DWS_Lite.exe.config
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\bin\Debug\DWS_Lite.exe
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\bin\Debug\DWS_Lite.pdb
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\obj\Debug\DWS_Lite.csproj.AssemblyReference.cache
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\obj\Debug\DWS_Lite.csproj.GenerateResource.cache
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\obj\Debug\DWS_Lite.csproj.CoreCompileInputs.cache
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\obj\Debug\DWS_Lite.exe
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\obj\Debug\DWS_Lite.pdb
+D:\pgu\Destroy-Windows-10-Spying-1.6.722\DWS\obj\Debug\OptimaGL.MainDwsForm.resources
